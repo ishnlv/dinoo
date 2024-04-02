@@ -1,0 +1,53 @@
+.game{
+width: 800px;
+height: 200px;
+border-bottom: 1px solid #000;
+margin: auto;
+}
+#dino{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/tyrannosaurus-t-shirt-dino-t-rex-runner-2-lonely-t-rex-run-2-google-chrome-8-bit.jpg);
+    background-size: 50px 50px;
+    position: fixed;
+    top: 155px;
+}
+#cactus{
+width: 20px;
+height: 40px;
+background-image: url(img/steps_arcdiju\ example\ cactus.png);
+background-size: 20px 40px;
+position: fixed;
+top: 168px;
+left: 580px;
+animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov {
+    0%{
+        left: 580px;
+    }
+    100% {
+        left: -20px    
+    }
+}
+.jump{
+    animation: jump 0.3s linear;
+ 
+}
+@keyframes jump{
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 80px
+        }
+        50% {       
+            top: 80px; 
+        }
+     80% 
+        }
+    100% {
+        top: 150px;
+    }
+}
+
